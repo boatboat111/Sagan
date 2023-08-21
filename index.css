@@ -1,0 +1,44 @@
+body {
+	width: 1200px;
+	margin: 0px auto;
+
+}
+
+table,
+th,
+td {
+	border: 1px solid black;
+	border-collapse: collapse;
+	padding: 10px;
+}
+
+
+td,
+p {
+	line-height: 35px;
+}
+
+table {
+	width: 100%;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+nav {
+	background-color: #333;
+	color: white;
+	display: flex;
+	justify-content: space-between;
+	padding: 10px;
+}
+
+nav a {
+	color: white;
+	text-decoration: none;
+	margin: 0 10px;
+	font-size: 18px;
+	font-weight: bold;
+}
